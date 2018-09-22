@@ -1,0 +1,15 @@
+server:
+  port: 8088
+spring:
+  datasource:
+    driver: com.mysql.jdbc.Driver
+    url: jdbc:mysql://123.206.209.35:3306/springboot?characterEncoding=utf-8
+    name: root
+    password: 1233zzz[]
+logging:
+  level: debug
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
